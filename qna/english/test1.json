@@ -1,0 +1,16 @@
+[
+    {
+        "Question": "On the basis of extensive calculations and models, astronomers in the 1990s predicted that the collision of two neutron stars or a neutron star and a black hole could release a massive burst of gamma rays in an event called a kilonova. This _______ was confirmed with observations in 2017. Which choice completes the text with the most logical and precise word or phrase?",
+        
+        "Options": [
+            "A) theory",
+            "B) evidence", 
+            "C) constant",
+            "D) experiment"
+        ],
+        
+        "Reasoning": "The question requires understanding what astronomers did in the 1990s and what was confirmed in 2017. The astronomers made a prediction based on calculations and models about what would happen during a kilonova event. This type of scientific prediction, supported by calculations and models, constitutes a theory. The confirmation in 2017 validated this theory through actual observations. Option A (theory) is correct because it accurately describes what was being confirmed - a scientific explanation based on calculations. Option B (evidence) is incorrect as the prediction itself wasn't evidence, it needed confirmation. Option C (constant) is inappropriate as the text doesn't discuss unchanging factors. Option D (experiment) is wrong because the text describes a prediction rather than a controlled test.",
+        
+        "Answer": "A) theory"
+    } 
+]

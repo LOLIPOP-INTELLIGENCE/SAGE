@@ -1,0 +1,142 @@
+[
+    {
+        "Question": "On the basis of extensive calculations and models, astronomers in the 1990s predicted that the collision of two neutron stars or a neutron star and a black hole could release a massive burst of gamma rays in an event called a kilonova. This _______ was confirmed with observations in 2017. Which choice completes the text with the most logical and precise word or phrase?",
+        
+        "Options": [
+            "A) theory",
+            "B) evidence", 
+            "C) constant",
+            "D) experiment"
+        ],
+        
+        "Reasoning": "The question requires understanding what astronomers did in the 1990s and what was confirmed in 2017. The astronomers made a prediction based on calculations and models about what would happen during a kilonova event. This type of scientific prediction, supported by calculations and models, constitutes a theory. The confirmation in 2017 validated this theory through actual observations. Option A (theory) is correct because it accurately describes what was being confirmed - a scientific explanation based on calculations. Option B (evidence) is incorrect as the prediction itself wasn't evidence, it needed confirmation. Option C (constant) is inappropriate as the text doesn't discuss unchanging factors. Option D (experiment) is wrong because the text describes a prediction rather than a controlled test.",
+        
+        "Answer": "A) theory"
+    },
+    {
+        "Question": "The following text is from John Muir's 1913 autobiography The Story of My Boyhood and Youth. Muir describes being on a boat. The water was so clear that it was almost invisible, and when we floated slowly out over the plants and fishes, we seemed to be miraculously sustained in the air while exploring a veritable fairyland. As used in the text, what does the word \"clear\" most nearly mean?",
+        
+        "Options": [
+            "A) Simple",
+            "B) Understandable",
+            "C) Obvious",
+            "D) Transparent"
+        ],
+        
+        "Reasoning": "The context of the passage is key to understanding the meaning of 'clear.' Muir describes water that is so see-through that it appeared invisible, allowing them to see plants and fish below as if floating in air. This directly aligns with the meaning 'transparent.' Option A (Simple) is incorrect as water isn't typically described as simple or complicated. Option B (Understandable) is incorrect as it doesn't make sense to describe water as understandable in this context. Option C (Obvious) is incorrect because the passage actually suggests the water was almost impossible to see, contradicting the meaning of obvious. Option D (Transparent) correctly captures the physical property of the water being described - its ability to be seen through.",
+        
+        "Answer": "D) Transparent"
+    },
+    {
+        "Question": "At the turn of the twentieth century, Black residents of Richmond, Virginia, had few formal options for banking and other financial services. To _______ this situation, Maggie Lena Walker chartered the St. Luke Penny Savings Bank in 1903. The bank went on to provide home loans and savings opportunities to thousands of Black families over the following decades. Which choice completes the text with the most logical and precise word or phrase?",
+        
+        "Options": [
+            "A) prolong",
+            "B) rectify",
+            "C) retain",
+            "D) highlight"
+        ],
+        
+        "Reasoning": "The context describes a problem (lack of financial services for Black residents) and an action taken to solve it (Walker establishing a bank). The word needed must reflect the corrective nature of Walker's action. Option B (rectify) means to correct or remedy something undesirable, which perfectly fits the context of Walker taking action to solve the problem of limited banking access. Option A (prolong) is incorrect as it would mean extending the problematic situation, which contradicts Walker's actions. Option C (retain) is incorrect as it would mean keeping the unfavorable situation, which wasn't Walker's goal. Option D (highlight) is incorrect because Walker did more than just draw attention to the problem - she took concrete action to solve it by establishing a bank.",
+        
+        "Answer": "B) rectify"
+    },
+    {
+        "Question": "The results of randomized clinical trials testing the efficacy of common medical interventions sometimes fail to _______ conclusions that practitioners reach based on their real-world observations of patients. While there are several possible reasons for this, one is that practitioners may overlook confounding variables that account for the results they attribute to the interventions in question. Which choice completes the text with the most logical and precise word or phrase?",
+        
+        "Options": [
+            "A) circumvent",
+            "B) corroborate",
+            "C) disseminate",
+            "D) implement"
+        ],
+        
+        "Reasoning": "The passage discusses a disconnect between clinical trial results and practitioners' real-world observations, specifically mentioning that practitioners might overlook confounding variables. The needed word must describe how trial results don't support or confirm practitioners' conclusions. Option B (corroborate) means to confirm or support with evidence, which fits perfectly as the passage suggests that trial results sometimes don't confirm what practitioners observe. Option A (circumvent) is incorrect as it's illogical for results to 'bypass' conclusions. Option C (disseminate) is incorrect as results can't 'spread' conclusions. Option D (implement) is incorrect as results can't 'put into effect' conclusions. The key context is that clinical trials, which control for variables, may produce different findings than real-world observations where multiple factors might influence outcomes.",
+        
+        "Answer": "B) corroborate"
+    },
+    {
+        "Question": "Diadromous fish migrate between freshwater and marine biomes during their life cycle. The migration's obligate nature is why diadromous fish can be _______ those that are merely euryhaline (able to tolerate high salinity): the euryhaline blackchin tilapia can survive high salinity, but its life cycle does not involve relocation to a different biome, as does that of the diadromous wild salmon. Which choice completes the text with the most logical and precise word or phrase?",
+        
+        "Options": [
+            "A) demarcated from",
+            "B) reconstituted as",
+            "C) conflated with",
+            "D) derived from"
+        ],
+        
+        "Reasoning": "The passage contrasts two types of fish: diadromous fish that must migrate between different biomes, and euryhaline fish that can tolerate salinity but don't need to migrate. The text emphasizes the distinction between these groups based on their migration patterns. Option A (demarcated from) means to separate or set apart from, which perfectly fits the context as the passage is explaining how these two types of fish are distinct from each other. Option B (reconstituted as) is incorrect as the text doesn't suggest diadromous fish are being reformed into something else. Option C (conflated with) is incorrect because the text is specifically trying to distinguish between the two types, not combine them. Option D (derived from) is incorrect as the passage doesn't suggest that diadromous fish evolved or originated from euryhaline fish.",
+        
+        "Answer": "A) demarcated from"
+    },
+    {
+        "Question": "The following text is from Joan Didion's memoir The Year of Magical Thinking. In the text, the author discusses her home life. [I]n California we heated our houses by building fires. We built fires even on summer evenings, because the fog came in. Fires said we were home, we had drawn the circle, we were safe through the night. ©2005 by Joan Didion Which choice best describes the function of the underlined portion in the text as a whole?",
+        
+        "Options": [
+            "A) It illustrates that a fire provides comfort beyond physical warmth",
+            "B) It summarizes the information that came before it in the text",
+            "C) It explains that the house remains cold even in summer",
+            "D) It suggests that the author feels comfortable in her home with or without a fire"
+        ],
+        
+        "Reasoning": "The passage describes both physical and emotional aspects of having fires in the home. The first part discusses the practical need for fires (heating houses, dealing with summer fog), while the underlined portion shifts to discuss the emotional significance - fires representing home, security, and safety. Option A correctly identifies this shift from physical to emotional comfort. Option B is incorrect as the underlined portion introduces new ideas about emotional comfort rather than summarizing the previous physical warmth discussion. Option C is incorrect because while summer cold is mentioned, the underlined portion focuses on emotional rather than physical aspects. Option D is incorrect as the passage specifically ties the feeling of comfort to the presence of fires, not their absence.",
+        
+        "Answer": "A) It illustrates that a fire provides comfort beyond physical warmth"
+    },
+    {
+        "Question": "The majority of plastics today wind up in landfills or are, at best, recycled into materials that have a very limited range of applications. To address this problem, chemist Guoliang Liu and colleagues designed a reactor that melts polyethylene and polypropylene—two widely used plastics—into a wax. The wax can then be transformed into a surfactant (a chemical compound usable as a detergent). With this promising new method, plastic waste could be turned into a range of useful cleaning products. Which choice best states the function of the underlined portion of the text?",
+        
+        "Options": [
+            "A) It clarifies the meaning of a scientific term",
+            "B) It describes an environmental concern",
+            "C) It explains the significance of a scientific discovery",
+            "D) It identifies a result that confused the team"
+        ],
+        
+        "Reasoning": "The passage introduces the term 'surfactant' and immediately follows it with a parenthetical explanation that defines it as 'a chemical compound usable as a detergent.' This is a clear example of defining or clarifying a technical term for the reader. Option A correctly identifies this clarifying function. Option B is incorrect because while the passage does discuss environmental concerns about plastic waste, the underlined portion specifically focuses on defining surfactant. Option C is incorrect as the underlined portion simply defines a term rather than explaining the significance of the discovery. Option D is incorrect as there's no mention of team confusion in the text, and the underlined portion serves to define a term rather than describe any results.",
+        
+        "Answer": "A) It clarifies the meaning of a scientific term"
+    },
+    {
+        "Question": "The following text is from H.D.'s 1916 poem \"Mid-Day.\" In the poem, the speaker is on a path in an outdoor setting. A slight wind shakes the seed-pods— my thoughts are spent as the black seeds. My thoughts tear me, I dread their fever. I am scattered in its whirl. I am scattered like the hot shrivelled seeds. Which choice best describes the function of the underlined portion in the text as a whole?",
+        
+        "Options": [
+            "A) It illustrates a change in the natural environment that the speaker implies is responsible for the growing misgivings described in the text",
+            "B) It establishes an example of consistency in the natural landscape that the speaker then contrasts with the unpredictability of human emotions",
+            "C) It presents an observation of an occurrence in the natural world that the speaker then expands on to convey a sense of a turbulent interior state",
+            "D) It evokes the ordinariness of an event in nature to suggest that the critical self-evaluation the speaker engages in is a common pursuit"
+        ],
+        
+        "Reasoning": "The passage begins with a simple observation of wind shaking seed-pods, then uses this natural image as a metaphor to explore the speaker's turbulent mental state. The speaker directly compares their scattered thoughts to the dispersing seeds, developing the initial observation into an extended metaphor for their internal turmoil. Option C correctly identifies this progression from natural observation to emotional expression. Option A is incorrect because the text doesn't suggest the natural event causes the speaker's state. Option B is incorrect as the passage draws parallels between nature and emotions rather than contrasting them. Option D is incorrect because the text focuses on this specific moment of turmoil rather than suggesting self-evaluation is common.",
+        
+        "Answer": "C) It presents an observation of an occurrence in the natural world that the speaker then expands on to convey a sense of a turbulent interior state"
+    },
+    {
+        "Question": "In 2023 literary scholar Jeremy Douglass cautioned technology investors and enthusiasts who predict conventional books' ultimate displacement by newer forms of media. Douglass observed that the concept of an \"interactive\" text is much older than technologists assume, extending back to the first time readers scratched notes into a text's margins. In addition, newer media, such as video games, haven't replaced older forms of entertainment, such as comic books, but rather exist alongside them. Douglass believes that rather than supplanting books, technology is simply making new forms of expression possible. Which choice best describes the function of the underlined portion in the text as a whole?",
+        
+        "Options": [
+            "A) It challenges the stance of the investors and enthusiasts who are mentioned earlier in the text",
+            "B) It explains the basis for the claim made by the technologists mentioned in the text",
+            "C) It suggests that academics are better suited than investors to see the potential uses of contemporary interactive texts",
+            "D) It provides a historical anecdote about the technological challenges involved in reading the earliest interactive texts"
+        ],
+        
+        "Reasoning": "The passage begins by mentioning how Douglass cautions against predictions about books being displaced by new media. The underlined portion then directly challenges this view by pointing out that interactive texts have existed far longer than technologists think, citing marginalia as an example. This serves to counter the technologists' assumption about the novelty of interactive media. Option A correctly identifies this challenging function. Option B is incorrect as the portion contradicts rather than explains the technologists' claims. Option C is incorrect because the text doesn't compare academics and investors' abilities to understand interactive texts. Option D is incorrect as the portion doesn't discuss technological challenges but rather provides a historical perspective to counter current assumptions.",
+        
+        "Answer": "A) It challenges the stance of the investors and enthusiasts who are mentioned earlier in the text"
+    },
+    {
+        "Question": "In 2018, scientists discovered an immense aggregation of Muusoctopus robustus (pearl octopuses) along a hydrothermal vent 3,200 meters beneath the ocean's surface. Water temperatures at this site—named the Octopus Garden—climb as high as 11°C, much warmer than the ambient 1.6°C typical at this depth. Based on observations made over three years, scientists concluded that temperatures at the site likely confer reproductive benefits and that the site is used exclusively for reproduction—6,000 M. robustus adults, hatchlings, and eggs were observed at the garden, but no juveniles were present. Which statement about M. robustus and the Octopus Garden is best supported by the text?",
+        
+        "Options": [
+            "A) M. robustus leave the Octopus Garden upon reaching an intermediary stage of development",
+            "B) The M. robustus population at the Octopus Garden remains stable despite variations in water temperature",
+            "C) M. robustus nests in the Octopus Garden contain on average fewer but larger eggs than nests at similar ocean depths",
+            "D) The Octopus Garden provides an ideal feeding ground for M. robustus hatchlings"
+        ],
+        
+        "Reasoning": "The passage notes that scientists observed adults, hatchlings, and eggs at the site, but specifically mentions the absence of juveniles. This observation pattern over three years strongly suggests that octopuses leave the site after hatching but before reaching juvenile stage. Option A correctly identifies this logical conclusion from the evidence provided. Option B is incorrect as the text doesn't discuss population stability or temperature variations' effects. Option C is incorrect as the text makes no comparisons about egg sizes or nest characteristics. Option D is incorrect because while the site is described as having reproductive benefits, there's no mention of it serving as a feeding ground for hatchlings.",
+        
+        "Answer": "A) M. robustus leave the Octopus Garden upon reaching an intermediary stage of development"
+    }        
+]

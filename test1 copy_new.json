@@ -1,0 +1,57 @@
+[
+    {
+        "Question": "Rectangle P has an area of 72 square inches. If a rectangle with an area of 20 square inches is removed from rectangle P, what is the area, in square inches, of the resulting figure?",
+        "Options": [
+            "A) 92",
+            "B) 84", 
+            "C) 80",
+            "D) 52"
+        ],
+        "Reasoning": "It's given that rectangle P has an area of 72 square inches. If a rectangle with an area of 20 square inches is removed from rectangle P, the area, in square inches, of the resulting figure is 72-20, or 52.",
+        "Answer": "D"
+    },
+    {
+        "Question": "Lorenzo purchased a box of cereal and some strawberries at the grocery store. Lorenzo paid $2 for the box of cereal and $1.90 per pound for the strawberries. If Lorenzo paid a total of $9.60 for the box of cereal and the strawberries, which of the following equations can be used to find p, the number of pounds of strawberries Lorenzo purchased? (Assume there is no sales tax.)",
+        "Options": [
+            "A) 1.90p + 2 = 9.60",
+            "B) 1.90 − 2 = 9.60 p",
+            "C) 1.90 + 2 = 9.60 p",
+            "D) 1.90 − 2 = 9.60"
+        ],
+        "Reasoning": "It's given that p represents the number of pounds of strawberries Lorenzo purchased and Lorenzo paid $1.90 per pound for the strawberries. It follows that the total amount, in dollars, Lorenzo paid for strawberries can be represented by 1.90p. It's given that Lorenzo paid $2 for the box of cereal. If Lorenzo paid a total of $9.60 for the box of cereal and strawberries, it follows that the equation 1.90p + 2 = 9.60 can be used to find p.",
+        "Answer": "A"
+    },
+    {
+        "Question": "The function f is defined by f(x) = 0.5(x + 6). What is the value of f(4)?",
+        "Options": [
+            "A) 20",
+            "B) 12",
+            "C) 10",
+            "D) 5"
+        ],
+        "Reasoning": "It's given that the function f is defined by f(x) = 0.5(x + 6). Substituting 4 for x in the given function yields f(4) = 0.5(4 + 6) = 0.5(10) = 5. Therefore, the value of f(4) is 5. Choice A is incorrect as this is the value of 4² + 6. Choice B is incorrect as this is the value of (2×4) + 6. Choice C is incorrect as this is the value of 4 + 6.",
+        "Answer": "D"
+    },
+    {
+        "Question": "y = 6x + 3. One of the two equations in a system of linear equations is given. The system has infinitely many solutions. Which equation could be the second equation in this system?",
+        "Options": [
+            "A) y = 2(6x + 3)",
+            "B) y = 2(6x) + 3",
+            "C) 2y = 2(6x + 3)",
+            "D) 2y = 2(6x) + 6"
+        ],
+        "Reasoning": "It's given that the system has infinitely many solutions. A system of two linear equations has infinitely many solutions when the two linear equations are equivalent. When one equation is a multiple of another equation, the two equations are equivalent. Multiplying each side of the given equation by 2 yields 2y = 2(6x) + 6. Thus, 2y = 2(6x) + 6 is equivalent to the given equation and could be the second equation in the system. Choice A is incorrect as the system consisting of this equation and the given equation has one solution rather than infinitely many solutions. Choice B is incorrect as the system consisting of this equation and the given equation has one solution rather than infinitely many solutions. Choice C is incorrect as the system consisting of this equation and the given equation has no solutions rather than infinitely many solutions.",
+        "Answer": "D"
+    },
+    {
+        "Question": "The cost of renting a carpet cleaner is $52 for the first day and $26 for each additional day. Which of the following functions gives the cost C(d), in dollars, of renting the carpet cleaner for d days, where d is a positive integer?",
+        "Options": [
+            "A) C(d) = 26d + 26",
+            "B) C(d) = 26d + 52",
+            "C) C(d) = 52 + 26(d - 1)",
+            "D) C(d) = 52 + 78d"
+        ],
+        "Reasoning": "It's given that the cost of renting a carpet cleaner is $52 for the first day and $26 for each additional day. Therefore, the cost C(d), in dollars, of renting the carpet cleaner for d days is the sum of the cost for the first day, $52, and the cost for the additional d-1 days, $26(d-1). It follows that C(d) = 52 + 26(d-1), which is equivalent to C(d) = 52 + 26d-26, or C(d) = 26d + 26. Choice B is incorrect as this function gives the cost of renting a carpet cleaner for d days if the cost is $78, not $52, for the first day and $26 for each additional day. Choice C is incorrect as this function gives the cost of renting a carpet cleaner for d days if the cost is $26, not $52, for the first day and $52, not $26, for each additional day. Choice D is incorrect as this function gives the cost of renting a carpet cleaner for d days if the cost is $130, not $52, for the first day and $52, not $26, for each additional day.",
+        "Answer": "A"
+    }
+]

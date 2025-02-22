@@ -1,0 +1,13 @@
+[
+    {
+        "Question": "The function f is defined by f(x) = 0.5(x + 6). What is the value of f(4)?",
+        "Options": [
+            "A) 20",
+            "B) 12",
+            "C) 10",
+            "D) 5"
+        ],
+        "Reasoning": "It's given that the function f is defined by f(x) = 0.5(x + 6). Substituting 4 for x in the given function yields f(4) = 0.5(4 + 6) = 0.5(10) = 5. Therefore, the value of f(4) is 5. Choice A is incorrect as this is the value of 4² + 6. Choice B is incorrect as this is the value of (2×4) + 6. Choice C is incorrect as this is the value of 4 + 6.",
+        "Answer": "D"
+    }
+]
