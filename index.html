@@ -4,10 +4,29 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Learning Assistant</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="container">
+        <header>
+          <h1>Learning</h1>
+          <nav class="subject-nav">
+            <button id="mathBtn" class="subject-btn">Math</button>
+            <button id="englishBtn" class="subject-btn">English</button>
+          </nav>
+        </header>
+        <main>
+          <div class="question-container">
+            <div id="question"></div>
+            <div id="options"></div>
+          </div>
+          <div class="response-container">
+            <div id="feedback"></div>
+          </div>
+        </main>
+      </div>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

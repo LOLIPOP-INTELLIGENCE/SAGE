@@ -10,36 +10,32 @@ let currentQuestion = null;
 let selectedSubject = null;
 let conversationHistory = [];
 let modelReady = false;
-let showThinking = false;
 
 // Create the UI
 document.querySelector('#app').innerHTML = `
   <div class="container">
-    <h1>Learning Assistant</h1>
-    
-    <div class="controls">
-      <div class="subject-selector">
+    <header>
+      <h1>Learning</h1>
+      <nav class="subject-nav">
         <button id="mathBtn" class="subject-btn" disabled>Math</button>
         <button id="englishBtn" class="subject-btn" disabled>English</button>
-      </div>
-      <label class="toggle-thinking">
-        <input type="checkbox" id="showThinkingToggle">
-        Show thinking process
-      </label>
-    </div>
+      </nav>
+    </header>
 
-    <div id="questionArea" class="hidden">
-      <div id="question"></div>
-      <div id="options"></div>
-      <div id="thinkingProcess" class="thinking-process hidden"></div>
-      <div id="conversation" class="conversation"></div>
+    <main>
+      <div class="question-container hidden">
+        <div id="question"></div>
+        <div id="options"></div>
+      </div>
+      <div class="response-container">
+        <div id="feedback"></div>
+      </div>
       <div class="input-area">
         <textarea id="answerInput" placeholder="Share your thoughts here..." rows="4"></textarea>
-        <button id="submitBtn">Continue Discussion</button>
+        <button id="submitBtn" class="submit-btn">Submit Answer</button>
       </div>
-    </div>
-
-    <div id="loading" class="loading">Initializing AI model...</div>
+      <div id="loading" class="loading">Loading model from cache...</div>
+    </main>
   </div>
 `;
 
@@ -63,48 +59,84 @@ function getRandomQuestion(questions) {
 
 // Display a question
 function displayQuestion(questionObj) {
+    console.log('Question object:', questionObj);
+    
+    // Extract just the letter from the answer (e.g. "A) theory" -> "A")
+    const correctLetter = questionObj.Answer.split(')')[0];
+    console.log('Correct letter:', correctLetter);
+    
     currentQuestion = questionObj;
     conversationHistory = [];
     
-    const questionArea = document.getElementById('questionArea');
+    const questionArea = document.querySelector('.question-container');
     const questionElement = document.getElementById('question');
     const optionsElement = document.getElementById('options');
-    const conversationElement = document.getElementById('conversation');
 
     questionElement.innerHTML = `<p>${questionObj.Question}</p>`;
-    optionsElement.innerHTML = questionObj.Options.map(option => 
-        `<div class="option">${option}</div>`
-    ).join('');
+    
+    // Create options with click handlers
+    optionsElement.innerHTML = questionObj.Options.map((option, index) => {
+        const letter = String.fromCharCode(65 + index); // Convert 0 to 'A', 1 to 'B', etc.
+        console.log(`Creating option ${letter}:`, option);
+        return `<div class="option" data-letter="${letter}">${option}</div>`;
+    }).join('');
+    
+    // Add click handlers to options
+    const options = optionsElement.querySelectorAll('.option');
+    options.forEach(option => {
+        option.addEventListener('click', () => handleOptionClick(option, correctLetter));
+    });
 
-    conversationElement.innerHTML = '';
     questionArea.classList.remove('hidden');
-    document.getElementById('answerInput').value = '';
+}
+
+// Handle option click
+function handleOptionClick(optionElement, correctLetter) {
+    const selectedLetter = optionElement.dataset.letter;
+    const isCorrect = selectedLetter === correctLetter;
+    
+    // Remove previous feedback classes from all options
+    const options = document.querySelectorAll('.option');
+    options.forEach(opt => {
+        opt.classList.remove('correct', 'incorrect');
+        opt.style.pointerEvents = 'none'; // Disable further clicks
+    });
+    
+    // Add feedback class to selected option only
+    optionElement.classList.add(isCorrect ? 'correct' : 'incorrect');
+    
+    // After 1.5 seconds, remove the feedback classes and enable clicks
+    setTimeout(() => {
+        options.forEach(opt => {
+            opt.classList.remove('correct', 'incorrect');
+            opt.style.pointerEvents = 'auto';
+        });
+    }, 1500);
 }
 
 // Add message to conversation
 function addToConversation(message, isAI = false) {
-    const conversationElement = document.getElementById('conversation');
-    const messageDiv = document.createElement('div');
-    messageDiv.className = isAI ? 'ai-message' : 'user-message';
-    messageDiv.textContent = message;
-    conversationElement.appendChild(messageDiv);
-    conversationElement.scrollTop = conversationElement.scrollHeight;
+    const conversationElement = document.getElementById('feedback');
+    if (isAI) {
+        // Convert markdown-style formatting to HTML
+        message = message
+            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')  // Bold
+            .replace(/\*(.*?)\*/g, '<em>$1</em>')              // Italic
+            .replace(/\n\n/g, '</p><p>')                       // Paragraphs
+            .replace(/\n/g, '<br>');                           // Line breaks
+        
+        message = `<p>${message}</p>`;
+    } else {
+        message = `<p class="user-response">${message}</p>`;
+    }
+    conversationElement.innerHTML = message;
     conversationHistory.push({ role: isAI ? 'assistant' : 'user', content: message });
 }
 
-// Add thinking process toggle handler
-document.getElementById('showThinkingToggle').addEventListener('change', (e) => {
-    showThinking = e.checked;
-    document.getElementById('thinkingProcess').classList.toggle('hidden', !showThinking);
-});
-
 // Update thinking process display
 function updateThinkingProcess(text) {
-    const thinkingProcess = document.getElementById('thinkingProcess');
-    if (showThinking) {
-        thinkingProcess.textContent = text;
-        thinkingProcess.classList.remove('hidden');
-    }
+    // Keep this function but make it do nothing
+    return;
 }
 
 // Initialize the AI model
@@ -257,7 +289,7 @@ Remember: If they're correct, confirm it and deepen their understanding. Don't j
         let fullResponse = '';
         const feedbackElement = document.createElement('div');
         feedbackElement.className = 'ai-message typing';
-        document.getElementById('conversation').appendChild(feedbackElement);
+        document.getElementById('feedback').appendChild(feedbackElement);
 
         let thinkingContent = '';
         let finalResponse = '';
@@ -320,12 +352,14 @@ Remember: If they're correct, confirm it and deepen their understanding. Don't j
 document.getElementById('mathBtn').addEventListener('click', async () => {
     selectedSubject = 'math';
     const questions = await loadQuestions('math');
+    console.log('Loaded math questions:', questions);
     displayQuestion(getRandomQuestion(questions));
 });
 
 document.getElementById('englishBtn').addEventListener('click', async () => {
     selectedSubject = 'english';
     const questions = await loadQuestions('english');
+    console.log('Loaded english questions:', questions);
     displayQuestion(getRandomQuestion(questions));
 });
 
