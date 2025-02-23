@@ -15,7 +15,7 @@ let modelReady = false;
 document.querySelector('#app').innerHTML = `
   <div class="container">
     <header>
-      <h1>Learning</h1>
+      <h1>SAGE</h1>
       <nav class="subject-nav">
         <button id="mathBtn" class="subject-btn" disabled>Math</button>
         <button id="englishBtn" class="subject-btn" disabled>English</button>
@@ -27,10 +27,10 @@ document.querySelector('#app').innerHTML = `
         <div id="question"></div>
         <div id="options"></div>
       </div>
-      <div class="response-container">
+      <div class="response-container hidden">
         <div id="feedback"></div>
       </div>
-      <div class="input-area">
+      <div class="input-area hidden">
         <textarea id="answerInput" placeholder="Share your thoughts here..." rows="4"></textarea>
         <button id="submitBtn" class="submit-btn">Submit Answer</button>
       </div>
@@ -88,6 +88,8 @@ function displayQuestion(questionObj) {
     });
 
     questionArea.classList.remove('hidden');
+    document.querySelector('.response-container').classList.remove('hidden');
+    document.querySelector('.input-area').classList.remove('hidden');
 }
 
 // Handle option click
